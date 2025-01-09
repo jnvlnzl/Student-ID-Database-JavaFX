@@ -1,0 +1,14 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.project.DashboardController">
+    <!-- You may need to replace "your.package.name" with the actual package name where the DashboardController resides. -->
+    <children>
+        <Label layoutX="53.0" layoutY="49.0" fx:id="studentNameLabel" />
+        <Label layoutX="53.0" layoutY="89.0" fx:id="attendanceLabel" />
+        <Button layoutX="124.0" layoutY="134.0" onAction="#markAttendance" text="Mark Attendance" />
+        <Button layoutX="124.0" layoutY="174.0" onAction="#markAbsent" text="Mark Absent" />
+    </children>
+</AnchorPane>
